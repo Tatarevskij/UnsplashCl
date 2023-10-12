@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">UnsplashCl</string>
+    <string name="title_activity_enter">EnterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="auth_canceled">Authantification canceled</string>
+    <string name="photos_btn">photos</string>
+    <string name="collections_btn">collections</string>
+    <string name="user_btn">user</string>
+    <string name="total_photos">total photos:</string>
+    <string name="by">by:</string>
+    <string name="login_btn">Login</string>
+    <string name="open_link_btn">open link</string>
+    <string name="generate_link_btn">generate link</string>
+    <string name="download_btn">download</string>
+    <string name="search_something">search something</string>
+    <string name="user_name">user name</string>
+    <string name="location">location</string>
+    <string name="logout_btn">logout</string>
+    <string name="clear_cache_btn">clear cache</string>
+    <string name="welcome">Welcome!!!</string>
+    <string name="try_btn">try</string>
+    <string name="make">make:</string>
+    <string name="model">model:</string>
+    <string name="exposure">exposure time:</string>
+    <string name="aperture">aperture:</string>
+    <string name="focal_length">focal length:</string>
+    <string name="iso">iso:</string>
+    <string name="downloads">downloads:</string>
+    <string name="exit_question">Do you really want to exit?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="image_saved">image saved:</string>
+    <string name="open">open</string>
+    <string name="no_data">no data was found</string>
+    <string name="download_later">no internet, image will be dowloaded later</string>
+</resources>

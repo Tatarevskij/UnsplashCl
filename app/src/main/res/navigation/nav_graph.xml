@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.example.unsplashcl.presentation.PhotosFragment"
+        android:label="fragment_photos"
+        tools:layout="@layout/fragment_photos" >
+        <action
+            android:id="@+id/action_photosFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectionsFragment"
+        android:name="com.example.unsplashcl.presentation.CollectionsFragment"
+        android:label="fragment_collections"
+        tools:layout="@layout/fragment_collections" >
+        <action
+            android:id="@+id/action_collectionsFragment_to_collectionDetailsFragment"
+            app:destination="@id/collectionDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.unsplashcl.presentation.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_userFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="com.example.unsplashcl.presentation.onboarding.AuthorizationFragment"
+        android:label="fragment_authorization"
+        tools:layout="@layout/fragment_authorization">
+        <action
+            android:id="@+id/action_authorizationFragment_to_photosFragment"
+            app:destination="@id/photosFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.unsplashcl.presentation.onboarding.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_authorizationFragment"
+            app:destination="@id/authorizationFragment"
+            />
+    </fragment>
+    <action
+        android:id="@+id/action_global_photosFragment"
+        app:destination="@id/photosFragment" />
+    <action
+        android:id="@+id/action_global_collectionsFragment"
+        app:destination="@id/collectionsFragment"/>
+    <action
+        android:id="@+id/action_global_userFragment"
+        app:destination="@id/userFragment" />
+    <fragment
+        android:id="@+id/photoDetailsFragment"
+        android:name="com.example.unsplashcl.presentation.PhotoDetailsFragment"
+        android:label="fragment_photo_details"
+        tools:layout="@layout/fragment_photo_details" />
+    <fragment
+        android:id="@+id/collectionDetailsFragment"
+        android:name="com.example.unsplashcl.presentation.CollectionDetailsFragment"
+        android:label="fragment_collection_details"
+        tools:layout="@layout/fragment_collection_details" >
+        <argument
+            android:name="collection_id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_collectionDetailsFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+    </fragment><action android:id="@+id/action_global_welcomeFragment" app:destination="@id/welcomeFragment"/>
+</navigation>

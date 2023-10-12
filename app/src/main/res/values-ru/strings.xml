@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UnsplashCl</string>
+    <string name="auth_canceled">Аутентификация не выполнена</string>
+    <string name="photos_btn">фото</string>
+    <string name="collections_btn">коллекции</string>
+    <string name="user_btn">пользователь</string>
+    <string name="total_photos">всего фото:</string>
+    <string name="by">владелец:</string>
+    <string name="login_btn">войти</string>
+    <string name="open_link_btn">открыть ссылку</string>
+    <string name="generate_link_btn">сгенерировать ссылку</string>
+    <string name="download_btn">загрузить</string>
+    <string name="search_something">найти что-нибудь</string>
+    <string name="user_name">имя пользователя</string>
+    <string name="location">местоположение</string>
+    <string name="logout_btn">выйти</string>
+    <string name="clear_cache_btn">очистить кэш</string>
+    <string name="welcome">Добро пожаловать!!!</string>
+    <string name="try_btn">поробовать</string>
+    <string name="make">производитель:</string>
+    <string name="model">модель:</string>
+    <string name="exposure">время экспозиции:</string>
+    <string name="aperture">диафрагма:</string>
+    <string name="focal_length">фокусное расстояние:</string>
+    <string name="iso">светочувствительность:</string>
+    <string name="downloads">загрузок:</string>
+    <string name="exit_question">Вы действительно хотите выйти?</string>
+    <string name="ok">да</string>
+    <string name="cancel">отмена</string>
+    <string name="image_saved">изображение сохранено:</string>
+    <string name="open">открыть</string>
+    <string name="no_data">данные не найдены</string>
+    <string name="download_later">нет соединения, изображение будет загружено позже</string>
+</resources>
